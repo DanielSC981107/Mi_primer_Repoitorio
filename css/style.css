@@ -12,3 +12,9 @@ h2 {
     color:antiquewhite;
     background-color: cornflowerblue;
 }
+.titulo-1 {
+    color: aqua;
+    background-color: bisque;
+}
+/* Recordemos  la jerarquia, tiene mas preferencia una clase que una etiqueta tratandose de estilos
+ya que la clase es mas especifica*/
