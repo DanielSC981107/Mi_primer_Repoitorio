@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.titulo1{
+    color: crimson;
+}
+
+.subtitulo{
+    background-color: aliceblue;
+    color: darkred;
+}
