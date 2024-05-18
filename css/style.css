@@ -39,13 +39,14 @@ ul {
     padding-inline-start: 0;
 }
 
-li {
+li .menu {
     border: 2px solid pink;
     text-align: center;
    /* margin-top: 10px;
     margin-bottom: 10px;*/
     margin: 10px 0 10px 0;
 }
+
 
 a{
     border: 2px solid orange;
@@ -72,16 +73,42 @@ ul li a{
     nav{
         width: 70%;
     }
-    ul{
-        list-style-type: none;
+     .menu-header {
+   /*     list-style-type: none;
         display: flex;
         justify-content: space-around;
         height: 100%;
+        align-items: center;*/
+        list-style-type: none;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
         align-items: center;
+        /*Tarea  elegir otra tipografia  y ponerselo a mi menu
+        Agregar en css conceptos de hover, font-face,  text-decoration, transition
+        Subirla a la cuenta de GITHUB 
+        hacer un pullrecuest
+        descargar todas la modificaciones a master 
+        */
+
+    }
+ 
+    .menu-header a {
+        text-decoration: none;
+        font-family: "Jersey 10";
+        font-size: 25px;
     }
 
-    
-    img{
-       
+    @font-face {
+        font-family: "Jersey 10" ;
+        src: url("../fonts/Jersey20-Regular.ttf");
     }
+
+
+    .menu-header li a:hover {
+        font-size: 40px;
+        transition: 1s;
+    }
+
+
 }
